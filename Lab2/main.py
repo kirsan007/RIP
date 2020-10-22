@@ -8,16 +8,16 @@
 from lab_python_oop.Rectangle import Rectangle
 from lab_python_oop.Circle import Circle
 from lab_python_oop.Square import Square
-import arrow
+#import arrow
 
 
 def main():
     print("ИУ5-51Б Пахомкин Кирсан Лаб №2")
-    print(arrow.now(), "\n")
+    #print(arrow.now(), "\n")
 
-    rectangle = Rectangle("синего", 2, 2)
-    circle = Circle("зеленого", 2)
-    square = Square("красного", 2)
+    rectangle = Rectangle("синего", 16, 16)
+    circle = Circle("зеленого", 16)
+    square = Square("красного", 16)
 
     print(rectangle)
     print(circle)

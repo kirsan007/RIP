@@ -1,12 +1,11 @@
 
 
-def countdown(num):
-    print('Starting')
-    while num > 0:
-        yield num
-        num -= 1
+#def countdown(num):
+#   while num > 0:
+#       yield num
+ #       num -= 1
 
-cd = countdown(10)
+#cd = countdown(10)
 
 #for i in range(10):
 #    print(next(cd))
