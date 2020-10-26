@@ -44,5 +44,5 @@ f = field(goods, 'title', 'price')
 
 print(next(f))
 print(next(f))
-print(next(f))
+#print(next(f))
 
