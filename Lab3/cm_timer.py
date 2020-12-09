@@ -16,3 +16,9 @@ def cm_timer_2():
     start = time()
     yield
     print('Duration: {}'.format(time() - start))
+
+
+with cm_timer_2():
+    pass
+#  print(1)
+ #   print(2)

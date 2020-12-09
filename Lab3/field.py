@@ -40,7 +40,7 @@ def field(items, *args):
                 yield res
 
 
-f = field(goods, 'title', 'price')
+f = field(goods, 'title')
 
 print(next(f))
 print(next(f))
