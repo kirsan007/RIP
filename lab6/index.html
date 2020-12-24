@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Текстовое поле</title>
+ </head>
+ <body>
+  <form action="handler.php">
+   <p><strong>Как вас зовут?</strong></p>
+   <p><input maxlength="25" size="40" value="Kirsan"></p>
+  </form>
+
+  <form action="handler.php">
+   <p>В каких годах произошли самые известные извержения вулкана Кракатау?</p>
+   <p><input type="checkbox" name="a" value="1417"> 1417</p>
+   <p><input type="checkbox" name="a" value="1680" > 1680</p>
+   <p><input type="checkbox" name="a" value="1883" checked> 1883</p>
+   <p><input type="checkbox" name="a" value="1934"> 1934</p>
+   <p><input type="checkbox" name="a" value="2010"> 2010</p>
+   <p><input type="submit" value="Отправить"></p>
+  </form>
+
+ <form action="handler.php">
+   <p><b>Какое у вас состояние разума?</b></p>
+    <p><input name="dzen" type="radio" value="nedzen"> Не дзен</p>
+    <p><input name="dzen" type="radio" value="dzen"> Дзен</p>
+    <p><input name="dzen" type="radio" value="pdzen" checked> Полный дзен</p>
+  </form>
+
+ <head>
+  <meta charset="utf-8">
+  <title>Текстовое поле</title>
+ </head>
+ <body>
+ <form action="handler.php">
+  <p><b>Введите ваш отзыв:</b></p>
+  <p><textarea name="comment"></textarea></p>
+  <p><input type="submit"></p>
+ </form>
+ </body>
+
+ <ol>
+  <li>Microsoft</li>
+  <li>Google</li>
+  <li>Apple</li>
+  <li>IBM</li>
+</ol>
+
+ <select>
+	<option label="Электроник" value="1" selected>Господин Электроник</option>
+	<option>Сыроежкин</option>
+	<option>Чижиков</option>
+	<option>Кукушкина</option>
+</select>
+
+
+<head>
+  <meta charset="utf-8">
+  <title>datalist</title>
+ </head>
+ <body>
+  <p>Выберите любимого персонажа:</p>
+  <p><input list="character">
+   <datalist id="character">
+    <option value="Чебурашка"></option>
+    <option value="Крокодил Гена"></option>
+    <option value="Шапокляк"></option>
+   </datalist></p>
+ </body>
+
+
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Кнопка</title>
+ </head>
+ <body>
+  <form>
+   <p><button>Кнопка с текстом</button>
+   <button>
+    <img src="https://static.ngs.ru/news/99/preview/dbd6cc9a30a9aaa00292e65ebed5c5160dd8cc63_720_405_c.png" alt="" style="vertical-align:middle">
+    Кнопка с рисунком
+   </button></p>
+  </form>
+ </body>
+
+?
+<head>
+  <meta charset="utf-8">
+  <title>Кнопка</title>
+ </head>
+ <body>
+  <form>
+   <p><input name="login"></p>
+   <p><input type="submit"></p>
+  </form>
+ </body>
+
+
+ </body>
+</html>

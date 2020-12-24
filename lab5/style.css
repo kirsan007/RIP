@@ -1,0 +1,22 @@
+table{
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ td{
+     background: rgba(S115, 243, 239, 0.925);
+     border: 1px solid black;
+ }
+ th{
+     background: white;
+     border: 1px solid black;
+ }
+ .colored{
+     background: purple;
+     color:white;
+ }
+ li{
+     color: black;
+     font-family: Georgia, 'Times New Roman', Times, sans-serif;
+ }
